@@ -1,0 +1,452 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#container {
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+}
+
+#containergoods {
+	width: 100%;
+	height: 3500px;
+	overflow: hidden;
+}
+
+#whitebakery {
+	position: absolute;
+	width: 1600px;
+	left:50%;
+	margin-left:-800px;
+	z-index: -1;
+}
+
+#hometext {
+	position: absolute;
+	top:210px;
+	left:50%;
+	margin-left: -500px;
+	width: 1000px;
+}
+
+#subtexthome {
+	position: absolute;
+	font-family: Elkwood;
+	font-size: 40px;
+	left:50%;
+	margin-left:-150px;
+	margin-top: 650px;
+}
+
+
+@font-face {
+	font-family:blah;
+	src:url(Elkwood.otf);
+}
+
+.text {
+	font-family: blah;
+}
+
+
+#logo {
+	position: absolute;
+	left:50%;
+	margin-left: 190px;
+	margin-top: 651px;
+	width:40px;
+}
+
+.navigationhome { /* container for navigation */
+	padding: 0px;
+	float: top;
+	position: absolute;
+	top:80px;
+	right: 70px;
+}
+
+.button { /* individual nav buttons */
+	float: none;
+	text-align: right;
+	display: block;
+	text-decoration: none;
+	font-family: Elkwood;
+	font-size: 20px;
+	color: black;
+}
+
+#logoOS{
+	position: absolute;
+	top:20px;
+	left:50%;
+	width:110px;
+	margin-left: -40px;
+}
+
+#ourstorytext {
+	position: absolute;
+	width: 500px;
+	top:300px;
+	left: 59%;
+	margin-left: -20px;
+}
+/*
+#ladyone {
+	position: absolute;
+	width:1000px;
+	left:50%;
+	margin-left: -500px;
+	top:200px;
+}
+
+#man{
+	position: absolute;
+	width:1000px;
+	left:50%;
+	margin-left: -500px;
+	top:200px;
+}
+
+#bakingone{
+	position: absolute;
+	width:1000px;
+	left:50%;
+	margin-left: -500px;
+	top:200px;
+}
+
+#ladytwo{
+	position: absolute;
+	width:1000px;
+	left:50%;
+	margin-left: -500px;
+	top:200px;
+}
+
+#bakingtwo{
+	position: absolute;
+	width:1000px;
+	left:50%;
+	margin-left: -500px;
+	top:200px;
+}
+*/
+
+.ourstoryimg {
+	display:none;
+	position: relative;
+	left: 200px;
+	top:200px;
+	width: 1000px;
+	height: 600px;
+	z-index: 0;
+}
+
+.slidesjs-navigation {
+      margin-top:3px;
+      text-decoration: none;
+      display: block;
+    }
+
+.slidesjs-previous {
+      margin-right: 5px;
+      width: 30px;
+      float: left;
+    }
+
+.slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+#about{
+	position: absolute;
+	font-family: avenir;
+	font-size: 15px;
+	text-align: center;
+	line-height: 25px;
+	width:1100px;
+	left:50%;
+	margin-left: -570px;
+	margin-top:220px;
+}
+
+#bakedgoodstext{
+	position: absolute;
+	width: 580px;
+	top:225px;
+	left: 50%;
+	margin-left: -285px;
+}
+
+#update {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 999999;
+}
+
+#pie2 {
+	position: absolute;
+	width:1100px;
+	left:50%;
+	margin-left: -550px;
+	top:200px;
+	display: none;
+}
+
+#pie2des {
+	position: absolute;
+	font-family: Avenir;
+	font-size: 18px;
+	text-align: center;
+	top:1050px;
+	left: 50%;
+	margin-left: -80px;
+}
+
+#pie1 {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: -550px;
+	top:1150px;
+}
+
+#pie1des {
+	position: absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:1520px;
+	left:50%;
+	margin-left: -330px;
+}
+
+#pie3 {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: 10px;
+	top:1150px;
+}
+
+#pie3des {
+	position:absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:1520px;
+	left:50%;
+	margin-left: 215px;
+
+}
+
+#pie4 {
+	position: absolute;
+	width:1100px;
+	left:50%;
+	margin-left: -550px;
+	top:1650px;
+}
+
+
+#pie4des {
+	position: absolute;
+	font-family: Avenir;
+	font-size: 18px;
+	text-align: center;
+	top:2350px;
+	left: 50%;
+	margin-left: -65px;
+}
+
+#cake {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: -550px;
+	top:2450px;
+}
+
+#cakedes {
+	position: absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:2830px;
+	left:50%;
+	margin-left: -405px;
+}
+
+#bread {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: 10px;
+	top:2450px;
+}
+
+#breaddes {
+	position: absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:2830px;
+	left:50%;
+	margin-left: 215px;
+}
+
+#choccup {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: -550px;
+	top:2950px;
+}
+
+#chocdes {
+	position: absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:3330px;
+	left:50%;
+	margin-left: -375px;
+}
+
+#redcup {
+	position: absolute;
+	width:540px;
+	left:50%;
+	margin-left: 10px;
+	top:2950px;
+}
+
+#reddes {
+	position: absolute;
+	text-align: center;
+	font-family: Avenir;
+	font-size: 18px;
+	top:3330px;
+	left:50%;
+	margin-left: 215px;
+}
+
+
+.info {
+	z-index: 1;
+}
+
+#contact {
+	position: absolute;
+	width: 580px;
+	left: 50%;
+	margin-left: -285px;
+	top:225px;
+}
+
+#cookingcontact {
+	position: absolute;
+	width:1400px;
+	left:50%;
+	margin-left: -700px;
+	top:200px;
+}
+
+#contactinfo {
+	position: absolute;
+	width:495px;
+	text-align: center;
+	font-family: bebas;
+	color:#142438;
+	left:50%;
+	margin-left: -215px;
+	font-size: 30px;
+	top:350px;
+	line-height: 50px;
+}
+
+#infocon {
+	position: absolute;
+	width:750px;
+	text-align: center;
+	font-family: bebas;
+	color:#142438;
+	left:50%;
+	margin-left: -375px;
+	font-size: 30px;
+	top:630px;
+	line-height: 60px;
+}
+
+#infocontwo {
+	position: absolute;
+	width:750px;
+	text-align: center;
+	font-family: bebas;
+	color:#142438;
+	left:50%;
+	margin-left: -375px;
+	font-size: 30px;
+	top:710px;
+	line-height: 60px;
+}
+
+.navigation { 
+	padding: 0px;
+	float: top;
+	width: 690px;
+	position: absolute;
+	top:150px;
+	left: 50%;
+	margin-left: -280px;
+}
+
+.water { 
+	float: none;
+	text-align: right;
+	text-decoration: none;
+	font-family: Elkwood;
+	font-size: 30px;
+	color: black;
+	letter-spacing: 0px;
+	margin-right: 80px;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+.water:last-child {
+	margin-right: 0px;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+.button:last-child {
+	margin-right: 0px;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+
+#ourstory_nav:hover {
+	letter-spacing: 6px;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+#bakedgoods_nav:hover {
+	letter-spacing: 6px;
+}
+
+#contact_nav:hover {
+	letter-spacing: 6px;
+	-webkit-transition: letter-spacing 1s;
+	transition: letter-spacing 1s;
+}
+
+
+
